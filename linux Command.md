@@ -119,4 +119,10 @@
 | `host`            |             |
 | `whois`           |             |
 | `mtr`             |             |
+| `wget`            |             |
+| `telnet`          |             |
+| `ssh`             |             |
+| `scp`             |             |
+| `rsync`           |             |
+| `lynx`            |             |
 |                   |             |

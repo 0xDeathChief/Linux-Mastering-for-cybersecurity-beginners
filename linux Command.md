@@ -117,4 +117,6 @@
 | `dig`             |             |
 | `dig hostname/ip` |             |
 | `host`            |             |
+| `whois`           |             |
+| `mtr`             |             |
 |                   |             |

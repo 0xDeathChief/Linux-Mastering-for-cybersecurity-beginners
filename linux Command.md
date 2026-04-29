@@ -34,4 +34,10 @@
 | `mail`    |             |
 | `uname`   |             |
 | `tar`     |             |
-| ``        |             |
+| `gzip`    |             |
+| `gunzip`  |             |
+| `lpr`     |             |
+| `lprm`    |             |
+| `lpc`     |             |
+| `lsmod`   |             |
+|           |             |

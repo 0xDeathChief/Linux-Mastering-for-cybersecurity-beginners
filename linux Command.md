@@ -126,4 +126,7 @@
 | `rsync`           |             |
 | `lynx`            |             |
 | `elinks`          |             |
-|                   |             |
+| `w3m`             |             |
+| `netstat`         |             |
+| `route`           |             |
+

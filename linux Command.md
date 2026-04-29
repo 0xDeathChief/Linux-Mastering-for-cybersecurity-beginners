@@ -103,11 +103,18 @@
 ---
 ### নেটওয়ার্ক
 
-| Command     | Description |
-| ----------- | ----------- |
-| `ifconfig`  |             |
-| `ifdown`    |             |
-| `ifup`      |             |
-| `smbclient` |             |
-| `testparm`  |             |
-| `put`       |             |
+| Command           | Description |
+| ----------------- | ----------- |
+| `ifconfig`        |             |
+| `ifdown`          |             |
+| `ifup`            |             |
+| `smbclient`       |             |
+| `testparm`        |             |
+| `put`             |             |
+| `get`             |             |
+| `ping`            |             |
+| `traceroute`      |             |
+| `dig`             |             |
+| `dig hostname/ip` |             |
+| `host`            |             |
+|                   |             |

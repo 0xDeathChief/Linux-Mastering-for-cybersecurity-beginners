@@ -125,4 +125,5 @@
 | `scp`             |             |
 | `rsync`           |             |
 | `lynx`            |             |
+| `elinks`          |             |
 |                   |             |

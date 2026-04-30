@@ -139,4 +139,8 @@
 | `tail`  |             |
 | `sort`  |             |
 | `cut`   |             |
+| `uniq`  |             |
+| `diff`  |             |
+| `paste` |             |
+| `grep`  |             |
 |         |             |

@@ -133,14 +133,18 @@
 
 ---
 
-| Command | Description |
-| ------- | ----------- |
-| `head`  |             |
-| `tail`  |             |
-| `sort`  |             |
-| `cut`   |             |
-| `uniq`  |             |
-| `diff`  |             |
-| `paste` |             |
-| `grep`  |             |
-|         |             |
+| Command   | Description |
+| --------- | ----------- |
+| `head`    |             |
+| `tail`    |             |
+| `sort`    |             |
+| `cut`     |             |
+| `uniq`    |             |
+| `diff`    |             |
+| `paste`   |             |
+| `grep`    |             |
+| `sed`     |             |
+| `strings` |             |
+| `look`    |             |
+| `aspell`  |             |
+| `find`    |             |

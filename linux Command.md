@@ -132,3 +132,9 @@
 | `route`           |             |
 
 ---
+
+| Command | Description |
+| ------- | ----------- |
+| `head`  |             |
+| `tail`  |             |
+|         |             |

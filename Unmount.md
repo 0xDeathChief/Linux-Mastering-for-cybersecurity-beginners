@@ -1,11 +1,11 @@
-### • Unmount কী
+### Unmount কী
 
 • Unmount হলো এমন একটি প্রক্রিয়া যেখানে কোনো mounted storage device বা filesystem কে Linux system থেকে নিরাপদভাবে detach করা হয়  
 
 • সহজভাবে বললে, আগে যে device কে directory এর সাথে attach করা হয়েছিল, সেটাকে disconnect করা হয়
 
 ---
-### • Unmount command এর সাধারণ গঠন
+### Unmount command এর সাধারণ গঠন
 
 ```bash
 umount <mount_point>
@@ -18,7 +18,7 @@ umount <device>
 ```
 
 ---
-### • Mount point দিয়ে unmount
+### Mount point দিয়ে unmount
 
 ```bash
 umount /mnt/usb
@@ -28,7 +28,7 @@ umount /mnt/usb
 • এটি unmount করার মাধ্যমে device disconnect হবে
 
 ---
-### • Device দিয়ে unmount
+### Device দিয়ে unmount
 
 ```bash
 umount /dev/sdb1
@@ -38,7 +38,7 @@ umount /dev/sdb1
 • direct device detach করা হচ্ছে
 
 ---
-### • USB unmount example
+### USB unmount example
 
 ```bash
 umount /mnt/usb
@@ -48,7 +48,7 @@ umount /mnt/usb
 • এখন safely remove করা হচ্ছে
 
 ---
-### • ISO unmount example
+### ISO unmount example
 
 ```bash
 umount /mnt/disk1
@@ -58,7 +58,7 @@ umount /mnt/disk1
 • এখন virtual disk detach করা হচ্ছে
 
 ---
-### • NFS unmount example
+### NFS unmount example
 
 ```bash
 umount /mnt/nfs
@@ -67,7 +67,7 @@ umount /mnt/nfs
 • remote server এর shared folder disconnect করা হচ্ছে
 
 ---
-### • SAMBA unmount example
+### SAMBA unmount example
 
 ```bash
 umount /mnt/samba
@@ -76,7 +76,7 @@ umount /mnt/samba
 • Windows/Linux network share detach করা হচ্ছে
 
 ---
-### • Force unmount (যখন busy থাকে)
+### Force unmount (যখন busy থাকে)
 
 ```bash
 umount -l /mnt/usb
@@ -86,7 +86,7 @@ umount -l /mnt/usb
 • system busy থাকলেও পরে detach করবে
 
 ---
-### • Force unmount (hard)
+### Force unmount (hard)
 
 ```bash
 umount -f /mnt/usb
@@ -96,7 +96,7 @@ umount -f /mnt/usb
 • network filesystem এ বেশি ব্যবহার হয়
 
 ---
-### • Mounted check করার command
+### Mounted check করার command
 
 ```bash
 df -h
@@ -105,7 +105,7 @@ df -h
 • কোন device কোথায় mounted আছে তা দেখায়
 
 ---
-### • Process কোন file use করছে কিনা check
+### Process কোন file use করছে কিনা check
 
 ```bash
 lsof /mnt/usb

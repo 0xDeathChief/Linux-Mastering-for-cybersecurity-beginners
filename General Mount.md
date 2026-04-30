@@ -8,7 +8,7 @@
 ---
 # General Mount
 
-### • Mount command এর সাধারণ গঠন
+### Mount command এর সাধারণ গঠন
 
 ```bash
 mount [options] <device_or_file> <mount_point>
@@ -18,7 +18,7 @@ mount [options] <device_or_file> <mount_point>
 • `<mount_point>` → যে ডিরেক্টরিতে attach করা হবে (যেমন: `/mnt/usb`)
 
 ---
-### • CD-ROM মাউন্ট
+### CD-ROM মাউন্ট
 
 ```bash 
 mount /dev/sr0 /media/cdrom
@@ -28,7 +28,7 @@ mount /dev/sr0 /media/cdrom
 • `/media/cdrom` → যেখানে CD-ROM এর ফাইলগুলো দেখা যাবে
 
 ---
-### • Hard Disk Partition মাউন্ট
+### Hard Disk Partition মাউন্ট
 ```bash 
 mount /dev/sda7 /windata
 ```
@@ -37,7 +37,7 @@ mount /dev/sda7 /windata
 • `/windata` → mount point (এই ফোল্ডারে ডাটা দেখা যাবে)
 
 ---
-### • Filesystem উল্লেখ করে (FAT32)
+### Filesystem উল্লেখ করে (FAT32)
 
 ```bash
 mount -t vfat /dev/sda7 /windata
@@ -48,7 +48,7 @@ mount -t vfat /dev/sda7 /windata
 • `/windata` → mount point
 
 ---
-### • Filesystem উল্লেখ করে (NTFS)
+### Filesystem উল্লেখ করে (NTFS)
 
 ```bash
 mount -t ntfs /dev/sda7 /windata
@@ -59,7 +59,7 @@ mount -t ntfs /dev/sda7 /windata
 • `/windata` → mount point
 
 ---
-### • USB Drive মাউন্ট
+### USB Drive মাউন্ট
 
 ```bash
 mount /dev/sda1 /mnt/usb
@@ -69,7 +69,7 @@ mount /dev/sda1 /mnt/usb
 • `/mnt/usb` → mount point
 
 ---
-### • ISO File মাউন্ট
+### ISO File মাউন্ট
 
 ```bash
 mount -o loop /iso/disk1.iso /mnt/disk1
@@ -80,7 +80,7 @@ mount -o loop /iso/disk1.iso /mnt/disk1
 • `/mnt/disk1` → mount point
 
 ---
-### • Mount করার আগে directory তৈরি করা
+### Mount করার আগে directory তৈরি করা
 
 ```bash
 mkdir /mnt/usb
@@ -89,14 +89,14 @@ mkdir /mnt/usb
 • `/mnt/usb` → mount point তৈরি করা হচ্ছে
 
 ---
-### • Device চেক করা
+### Device চেক করা
 
 `lsblk`
 
 • সিস্টেমে কোন কোন ডিভাইস আছে তা দেখায়
 
 ---
-### • Mounted ডিভাইস চেক করা
+### Mounted ডিভাইস চেক করা
 
 ```bash
 df -h
@@ -105,7 +105,7 @@ df -h
 • কোন ডিভাইস কোথায় mount হয়েছে এবং space কত আছে তা দেখায়
 
 ---
-### • Unmount (ডিভাইস detach করা)
+### Unmount (ডিভাইস detach করা)
 
 ```bash
 umount /mnt/usb

@@ -1,10 +1,10 @@
-# • NFS কী
+# NFS কী
 
 • NFS (Network File System) হলো এমন একটি সিস্টেম যার মাধ্যমে এক কম্পিউটারের ফাইল অন্য কম্পিউটার থেকে network দিয়ে access করা যায়  
 • মানে remote server এর directory কে local machine এ mount করা যায়
 
 ---
-### • NFS mount command এর সাধারণ গঠন
+### NFS mount command এর সাধারণ গঠন
 
 ```bash
 mount -t nfs <server_ip>:<remote_directory> <mount_point>
@@ -15,7 +15,7 @@ mount -t nfs <server_ip>:<remote_directory> <mount_point>
 • `<mount_point>` → local machine এ যে directory তে attach হবে
 
 ---
-### • Basic NFS Mount
+### Basic NFS Mount
 
 ```bash
 mount -t nfs 192.168.1.10:/shared /mnt/nfs
@@ -26,7 +26,7 @@ mount -t nfs 192.168.1.10:/shared /mnt/nfs
 • `/mnt/nfs` → local mount point
 
 ---
-### • Mount করার আগে directory তৈরি
+### Mount করার আগে directory তৈরি
 
 ```bash
 mkdir /mnt/nfs
@@ -35,7 +35,7 @@ mkdir /mnt/nfs
 • `/mnt/nfs` → local mount point তৈরি করা হচ্ছে
 
 ---
-### • NFS version specify করে mount
+### NFS version specify করে mount
 
 ```bash
 mount -t nfs -o vers=4 192.168.1.10:/shared /mnt/nfs
@@ -45,7 +45,7 @@ mount -t nfs -o vers=4 192.168.1.10:/shared /mnt/nfs
 • বাকি অংশ আগের মতোই
 
 ---
-### • Read-only mode এ mount
+### Read-only mode এ mount
 
 ```bash
 mount -t nfs -o ro 192.168.1.10:/shared /mnt/nfs
@@ -54,7 +54,7 @@ mount -t nfs -o ro 192.168.1.10:/shared /mnt/nfs
 • `-o ro` → শুধু read করা যাবে, write করা যাবে না
 
 ---
-### • Multiple options ব্যবহার
+### Multiple options ব্যবহার
 
 ```bash
 mount -t nfs -o rw,vers=4 192.168.1.10:/shared /mnt/nfs
@@ -64,7 +64,7 @@ mount -t nfs -o rw,vers=4 192.168.1.10:/shared /mnt/nfs
 • `vers=4` → NFS version
 
 ---
-### • Mounted NFS check করা
+### Mounted NFS check করা
 
 
 ```bash
@@ -74,7 +74,7 @@ df -h
 • কোন directory তে NFS mount হয়েছে তা দেখা যায়
 
 ---
-### • Unmount NFS
+### Unmount NFS
 
 ```bash
 umount /mnt/nfs
@@ -83,7 +83,7 @@ umount /mnt/nfs
 • `/mnt/nfs` → যে mount point detach করা হবে
 
 ---
-### • Available NFS share list দেখা
+### Available NFS share list দেখা
 
 ```bash
 showmount -e 192.168.1.10

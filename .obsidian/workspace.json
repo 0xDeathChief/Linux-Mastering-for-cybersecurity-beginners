@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "General Mount"
             }
-          },
-          {
-            "id": "e1f0f84f418ab2f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1f0f84f418ab2f4",
+  "active": "6401db966efa7412",
   "lastOpenFiles": [
     "Untitled.md",
     "General Mount.md",

@@ -213,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e4f2aa028ae3152",
+  "active": "6401db966efa7412",
   "lastOpenFiles": [
-    "linux Command.md",
     "General Mount.md",
+    "Untitled.md",
+    "linux Command.md",
     "NFS Mount.md",
     "SAMBA Mount.md",
     "Unmount.md",

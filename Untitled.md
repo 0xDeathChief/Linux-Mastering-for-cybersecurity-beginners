@@ -1,0 +1,3 @@
+| a   | b                                                                                                                                                                                                                 |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | **bypass**  <br>Sets the execution policy to **Bypass**, meaning:<br><br>- Scripts run without restriction<br>- No warnings or prompts about script safety<br>- System policy checks are ignored for that session |

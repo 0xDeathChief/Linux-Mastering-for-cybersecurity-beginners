@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "General Mount"
             }
+          },
+          {
+            "id": "e1f0f84f418ab2f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -213,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6401db966efa7412",
+  "active": "e1f0f84f418ab2f4",
   "lastOpenFiles": [
-    "General Mount.md",
     "Untitled.md",
+    "General Mount.md",
     "linux Command.md",
     "NFS Mount.md",
     "SAMBA Mount.md",
